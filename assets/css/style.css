@@ -5,6 +5,69 @@ body{
     color:#6c7279;
 }
 
-font-family: 'Cardo', serif;
+*,
+*:before,
+*:after{
+
+    box-sizing:border-box;
+}
+
+/* Container====================*/
+
+.container{
+    width:100%;
+    max-width:1170px;
+    margin:0 auto;
+}
+
+/* Header====================*/
+
+.header{
+ 
+ 
+}
+
+.header__inner{
+    display:flex;
+    justify-content: space-between;
+    border-bottom:2px solid #51536a;
+    padding:35px 0;
+    background-color: black;
+    align-items: center;
+}
+
+
+/* Nav====================*/
+
+.nav{
+    display: flex;
+    font-size:13px;
+    font-weight: 700;
+
+}
+
+.nav__link{
+    
+    color:#fff;
+    text-decoration:none;
+    margin-left:50px;
+    text-transform: uppercase;
+    opacity: 0.75;
+    transition: 0.2s linear;
+}
+
+.nav__link:hover{
+    /* text-decoration: underline; */
+    opacity:1;
+}
+
+.nav__link:first-child{
+    margin-left:0;
+}
+
+
+/* font-family: 'Cardo', serif;
 font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* Chapter====================*/
