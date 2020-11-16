@@ -210,18 +210,51 @@ background-size:cover;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-row-gap:0px;
-    grid-column-gap:0px;
+    grid-row-gap:1px;
+    grid-column-gap:1px;
+    
 }
 
-.wall__paper img{
-    width:100%;
-    
-   max-width: 450px;
-  
-  max-height: 350px;
-  height: 100%;
+.img__wrapper{
+ 
 }
+
+
+.wall__img{
+    width: 467px; 
+    height: 350px;
+    width:100%;
+    height: 100%;
+    margin-bottom:-3px;
+    
+    
+
+}
+
+
+
+@media(max-width:1440px){
+    .wall__img{
+        height: 250px; 
+    }
+}
+
+
+.wall__paper:active{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
