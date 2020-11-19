@@ -202,7 +202,7 @@ background-size:cover;
 }
 
 
-/*  3 page   */
+/* Section 3 page===============================================*/
 
 .wall__inner{
    width: 100%;
@@ -277,6 +277,116 @@ background-size:cover;
     font-weight: 400;
 
 }
+
+
+/* Section 4 page===============================================*/
+
+.team{
+    padding-top:90px;
+    padding-bottom:90px;
+}
+
+.cars__team{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.card__employ{
+    width:100%;
+    max-width: 270px;
+}
+
+
+.card__text{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+
+.card__title{
+    font-size:22px;
+    font-weight: 400;
+    color:#2d3033;
+}
+
+
+.card__subtitle{
+    margin-top:8px;
+    font-size:13px;
+    font-weight: 400;
+    color:#e85351;
+    text-transform: uppercase;
+}
+
+
+.card__description{
+    margin-top:20px;
+    font-size:14px;
+    font-weight: 400;
+    color:#6c7279;
+    line-height: 1.5;
+}
+
+.icons{
+    margin-top:20px;
+}
+
+
+.icon-border{
+    display: inline-block;
+    border:1px solid #e8ecee;
+    padding:10px;
+    color:#c6cacc;
+    margin-right:3px;
+}
+
+
+
+
+
+.fab{
+    color: #c6cacc;
+    padding:3px;
+    font-size:16px; 
+}
+
+.icon-border:hover .fab{
+    color:#fff;
+}
+
+.icon-border:hover .fa-linkedin-in{
+    background-color:#fff;
+    color:#c6cacc;
+    
+}
+
+.icon-border:hover{
+    background-color: #c6cacc; 
+}
+
+.fa-linkedin-in{
+    background-color: #c6cacc;
+    color:#fff;
+    padding-left:6px;
+    
+    
+}
+
+.fa-facebook-f{
+    padding-left:6px;
+    padding-right:6px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
