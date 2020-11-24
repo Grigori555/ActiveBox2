@@ -288,7 +288,7 @@ background-size:cover;
 
 .cars__team{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -380,8 +380,154 @@ background-size:cover;
 
 
 
+/* Section 5 page===============================================*/
+
+.sidebar__review{
+   
+}
+
+.review__inner{
+    display:flex;
+}
+.review__img{
+    
+   
+    width:50%;
+}
 
 
+
+
+.review__text{
+    
+    color:#fff;
+    background-color: #53354a;
+    padding:118px 365px 104px 85px;
+    max-height: 500px;
+
+
+}
+
+.review__descript{
+    max-width: 500px;
+    width:100%;
+
+}
+
+
+
+.review__quote{
+font-style:italic;
+font-size:36px;
+
+font-family: 'Cardo', serif;
+}
+
+
+
+
+.review__author{
+    font-weight: bold;
+    font-size:13px;
+    text-transform: uppercase;
+    margin-top:35px;
+}
+
+
+
+@media(max-width:1500px){
+    .review__quote{
+        font-size:25px;
+    }  
+    .review__author{
+        font-size:10px;
+    }
+
+    
+}
+
+
+
+/* Section 6 page===============================================*/
+.download{
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.download__inner{
+    max-width:630px;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.download__text{
+    margin-bottom:40px;
+}
+
+
+.download__ask{
+    color:#3b3e41;
+    font-size:28px;
+    font-weight: lighter;
+}
+
+
+.download__quote{
+    font-weight: bold;
+    font-size:13px;
+    text-transform: uppercase;
+    color:#2d3033;
+}
+
+
+/* Section 7 page===============================================*/
+
+
+.--part1{
+    background-color:#3a3e64;
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.--part2{
+    background-color:#313454;
+    
+}
+.footer__inner{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.footer__item{
+    max-width: 340px;
+    width:100%;
+    text-align: center;
+
+}
+
+.footer__title{
+    font-weight: 700;
+    font-size:14px;
+    color:#fff;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    
+}
+
+.footer__text, .foot__place, .foot__index {
+    font-size:14px;
+    font-weight: 400;
+    color:#9d9fb2;
+    line-height: 1.7;
+}
+
+.--foot__border{
+    color:#fff;
+    border:1px solid #fff;
+    background-color:#fff;
+}
 
 
 
