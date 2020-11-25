@@ -390,8 +390,11 @@ background-size:cover;
     display:flex;
 }
 .review__img{
-    
-   
+   position: relative;
+   background: url("../images/sidebar/review-picture.jpg"); 
+   background-repeat:no-repeat;
+   background-position:top;
+   background-size:cover ;
     width:50%;
 }
 
@@ -399,20 +402,16 @@ background-size:cover;
 
 
 .review__text{
-    
+    width:50%;
     color:#fff;
     background-color: #53354a;
-    padding:118px 365px 104px 85px;
-    max-height: 500px;
+    /* padding:118px 365px 104px 85px; */
+    min-height: 500px;
 
 
 }
 
-.review__descript{
-    max-width: 500px;
-    width:100%;
 
-}
 
 
 
@@ -443,6 +442,40 @@ font-family: 'Cardo', serif;
         font-size:10px;
     }
 
+    .review__descript{
+        max-width: 300px;
+
+    }
+    .review__text{
+    
+        
+        padding:70px 290px 90px 60px;
+       
+    
+    
+    }
+}
+.review__btns{
+    display:flex;
+    margin-left:190px;
+    margin-top:60px;
+}
+.rev__btn:after{
+    content:"";
+    background-color:#755d6e;
+    border-radius:50%;
+    cursor: pointer;
+    display:block;
+    width:13px;
+    height: 13px;
+    margin-left:7px;
+
+}
+
+
+.rev__btn.active .rev__btn:after{
+   
+    background-color:#fff;
     
 }
 
@@ -526,7 +559,7 @@ font-family: 'Cardo', serif;
 .--foot__border{
     color:#fff;
     border:1px solid #fff;
-    background-color:#fff;
+    
 }
 
 
