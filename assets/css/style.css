@@ -345,10 +345,14 @@ background-size:cover;
 
 
 
-.fab{
+.go__network .fab{
     color: #c6cacc;
     padding:3px;
     font-size:16px; 
+}
+
+.linkedin .fab{
+    color: #fff;
 }
 
 .icon-border:hover .fab{
@@ -394,7 +398,7 @@ background-size:cover;
    background: url("../images/sidebar/review-picture.jpg"); 
    background-repeat:no-repeat;
    background-position:top;
-   background-size:cover ;
+   background-size:100% ;
     width:50%;
 }
 
@@ -405,8 +409,9 @@ background-size:cover;
     width:50%;
     color:#fff;
     background-color: #53354a;
-    /* padding:118px 365px 104px 85px; */
+    padding:118px 365px 104px 85px;
     min-height: 500px;
+    height: 100%;
 
 
 }
@@ -449,7 +454,7 @@ font-family: 'Cardo', serif;
     .review__text{
     
         
-        padding:70px 290px 90px 60px;
+       
        
     
     
