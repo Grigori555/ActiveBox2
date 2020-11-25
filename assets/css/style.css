@@ -522,6 +522,9 @@ font-family: 'Cardo', serif;
 /* Section 7 page===============================================*/
 
 
+/* Section 7 page===============================================*/
+
+
 .--part1{
     background-color:#3a3e64;
     padding-top:70px;
@@ -561,20 +564,65 @@ font-family: 'Cardo', serif;
     line-height: 1.7;
 }
 
-.--foot__border{
-    color:#fff;
+.footer__link{
+    display:inline-block;
     border:1px solid #fff;
+    padding:7px;
+    margin-right:5px;
+   
+}
+.go__active-box {
+    text-decoration: none;
     
+}
+.go__active-box .fab{
+    color:#fff;
+    font-size:16px; 
+    
+   
+    
+}
+
+.go__active-box:hover .fab{
+    color:grey;
+    
+}
+
+.go__active-box:hover .footer__link{
+    border:1px solid grey;
+}
+
+.go__active-box .fa-linkedin-in{
+    background-color: #fff;
+    color:#3a3e64;
+    padding:0px;
+    padding-left:2px;
+    padding-right: 2px;
+    
+}
+
+
+.footer.--part2{
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
 
 
 
+.footer__sign{
+    color:#fff;
+}
 
+.fa-heart{
+    color:red;
+}
 
-
-
-
+.sign__web{
+    text-decoration: none;
+    color:#fff;
+}
 
 
 
