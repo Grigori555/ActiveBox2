@@ -387,11 +387,12 @@ background-size:cover;
 /* Section 5 page===============================================*/
 
 .sidebar__review{
-   
+    position: relative; 
 }
 
 .review__inner{
-    display:flex;
+    position: relative;
+    
 }
 .review__img{
    position: relative;
@@ -400,6 +401,9 @@ background-size:cover;
    background-position:top;
    background-size:100% ;
     width:50%;
+    height: 500px;
+    color:transparent;
+    font-size:0;
 }
 
 
@@ -409,9 +413,13 @@ background-size:cover;
     width:50%;
     color:#fff;
     background-color: #53354a;
-    padding:118px 365px 104px 85px;
-    min-height: 500px;
-    height: 100%;
+    padding-left:80px;
+    padding-top:120px;
+    
+    position: absolute;
+    left:50%;
+    top:0;
+    height: 355px;
 
 
 }
@@ -483,6 +491,8 @@ font-family: 'Cardo', serif;
     background-color:#fff;
     
 }
+
+
 
 
 
