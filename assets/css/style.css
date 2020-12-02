@@ -155,8 +155,11 @@ background-size:cover;
 }
 
 
-
+/* ------------------------Mine  code*/
 /* Section 2 page===============================================*/
+.text{
+    font-size:60px;
+}
 .advantages{
     padding-top:120px;
     padding-bottom:120px;
