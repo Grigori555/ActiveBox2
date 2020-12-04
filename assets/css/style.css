@@ -239,8 +239,63 @@ background-size:cover;
 
 }
 
+/*Works ===============================================*/
+.works{
+    display:flex;
+    flex-wrap: wrap;
+}
 
-/* Section 3 page===============================================*/
+.works__item{
+    width:25%;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+
+.works__photo{
+position: absolute;
+top:50%;
+left:50%;
+z-index:1;
+transform:translate3d(-50%, -50%,0);
+}
+
+.works__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 2;
+    background-color:rgba(232,69,69,0.9);
+    opacity:0;
+    transition: opacity 0.9s linear;
+}
+
+.works__item:hover .works__content{
+    opacity: 0.9;
+}
+
+.works__title{
+    font-size:14px;
+    font-weight: 700;
+    color:#fff;
+    text-transform:uppercase;
+    margin-bottom:5px;
+}
+
+.works__text{
+    font-size:14px;
+    color:#fff;
+}
+
+
+
+/* Mine code Section 3 page===============================================*/
 
 .wall__inner{
    width: 100%;
