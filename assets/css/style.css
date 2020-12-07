@@ -373,10 +373,21 @@ transform:translate3d(-50%, -50%,0);
 
 }
 
-
-/* Section 4 page===============================================*/
-
+/*Team*/
 .team{
+    margin:100px 0;
+}
+
+.team__inner{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+
+/* Mine code Section 4 page===============================================*/
+
+
+.team1{
     padding-top:90px;
     padding-bottom:90px;
 }
