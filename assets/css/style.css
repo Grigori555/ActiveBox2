@@ -442,6 +442,7 @@ transform:translate3d(-50%, -50%,0);
     display:block;
     height: 18px;
     fill:#c6cacc;
+    transition: fill .2s linear;
 }
 
 .social__item:hover{
@@ -450,7 +451,7 @@ background-color: #e8ecee;
 
 
 .social__item:hover .social__icon{
-    fill:#e84545;
+    fill:#000;
 }
 
 /* Mine code Section 4 page===============================================*/
