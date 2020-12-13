@@ -433,6 +433,10 @@ transform:translate3d(-50%, -50%,0);
 .social{
     display: flex;
 }
+
+.social--footer{
+    justify-content: center;
+}
 .social__item{
     display:flex;
     justify-content: center;
@@ -443,6 +447,13 @@ transform:translate3d(-50%, -50%,0);
     margin-right:4px;
     background-color: #fff;
     transition: background .1s linear;
+}
+
+.social--footer .social__item{
+    background: none;
+    border-width:2px;
+    border-color:#fff;
+
 }
 
 .social__icon{
@@ -794,11 +805,44 @@ font-family: 'Cardo', serif;
     color:#2d3033;
 }
 
+/*footer======================================================================*/
+.footer{
+    padding:70px 0;
+    background-color:#3a3e64;
+}
 
-/* Section 7 page===============================================*/
+.footer__inner{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.footer__block{
+    width:33.33333%;
+    text-align:center;
+}
+
+.footer__title{
+    margin-bottom:10px;
+    font-size:14px;
+    font-weight: 700;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.footer__adress{
+    font-size:14px;
+    font-style:normal;
+    line-height: 1.5;
+    color:rgba(255,255,255, .5);
+}
 
 
-/* Section 7 page===============================================*/
+
+
+/* Section 6 page mine code ===============================================*/
+
+
+
 
 
 .--part1{
@@ -811,20 +855,20 @@ font-family: 'Cardo', serif;
     background-color:#313454;
     
 }
-.footer__inner{
+.footer__inner1{
     display:flex;
-    justify-content: space-between;
+    
     
 }
 
-.footer__item{
+.footer__item1{
     max-width: 340px;
     width:100%;
     text-align: center;
 
 }
 
-.footer__title{
+.footer__title1{
     font-weight: 700;
     font-size:14px;
     color:#fff;
