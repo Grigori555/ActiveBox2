@@ -98,6 +98,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size:cover;
 
+
 }
 
 
@@ -450,10 +451,15 @@ transform:translate3d(-50%, -50%,0);
 }
 
 .social--footer .social__item{
-    background: none;
+    background: transparent;
     border-width:2px;
     border-color:#fff;
+    border-radius: 2px;
 
+}
+
+.social--footer .social__item:hover{
+    background-color:#fff;
 }
 
 .social__icon{
@@ -470,6 +476,10 @@ background-color: #e8ecee;
 
 .social__item:hover .social__icon{
     fill:#000;
+}
+
+.social--footer  .social__icon{
+    fill:#fff
 }
 
 /* Mine code Section 4 page===============================================*/
@@ -807,18 +817,20 @@ font-family: 'Cardo', serif;
 
 /*footer======================================================================*/
 .footer{
-    padding:70px 0;
+   
     background-color:#3a3e64;
 }
 
 .footer__inner{
     display:flex;
     flex-wrap:wrap;
+    padding:70px 0;
 }
 
 .footer__block{
     width:33.33333%;
     text-align:center;
+    padding:0 15px;
 }
 
 .footer__title{
@@ -835,6 +847,52 @@ font-family: 'Cardo', serif;
     line-height: 1.5;
     color:rgba(255,255,255, .5);
 }
+
+
+.footer__text{
+    font-size:14px;
+    
+    line-height: 1.5;
+    color:rgba(255,255,255, .5);
+}
+
+
+/*copyright======================================================================*/
+
+.copyright{
+    background-color: #313454;
+    padding:20px 0;
+}
+
+.copyright__text{
+    text-align: center;
+    font-size:14px;
+    color:#75767a;
+    line-height: 1.5;
+}
+
+.copyright__text span{
+    color:#fff;
+}
+
+
+.copyright__heart{
+    margin:0;
+    height: 18px;
+    fill:#e84545;
+    margin-right:150px;
+   
+
+   
+}
+
+.copyright__author span{
+   
+}
+
+
+
+
 
 
 
@@ -877,7 +935,7 @@ font-family: 'Cardo', serif;
     
 }
 
-.footer__text, .foot__place, .foot__index {
+.footer__text1, .foot__place, .foot__index {
     font-size:14px;
     font-weight: 400;
     color:#9d9fb2;
